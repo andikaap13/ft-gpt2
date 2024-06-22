@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "text-generation"
+version = "0.1.0"
+description = ""
+authors = ["Andika"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+transformers = "^4.36.2"
+datasets = "^2.16.1"
+accelerate = "^0.27.2"
+bitsandbytes = "^0.43.0"
+peft = "^0.10.0"
+loralib = "^0.1.2"
+einops = "^0.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
